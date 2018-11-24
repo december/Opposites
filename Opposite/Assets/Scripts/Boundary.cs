@@ -26,7 +26,7 @@ public class Boundary : MonoBehaviour {
         {
             Vector3 ps = new Vector3(transform.position.x, transform.position.y + Random.Range(-5, 5), transform.position.z - 1f);
             Rigidbody2D bl = Instantiate(Bubble, ps, Quaternion.identity).GetComponent<Rigidbody2D>();
-            bl.velocity = new Vector2(-0.1f, 0);
+            bl.velocity = new Vector2(-0.5f, 0);
         }
         transform.position = new Vector3(transform.position.x + 0.03f, transform.position.y, transform.position.z);
 
@@ -38,7 +38,7 @@ public class Boundary : MonoBehaviour {
         {
             Vector3 ps = new Vector3(transform.position.x, transform.position.y + Random.Range(-5, 5), transform.position.z - 1f);
             Rigidbody2D bl = Instantiate(Bubble, ps, Quaternion.identity).GetComponent<Rigidbody2D>();
-            bl.velocity = new Vector2(0.1f, 0);
+            bl.velocity = new Vector2(0.5f, 0);
         }
         transform.position = new Vector3(transform.position.x - 0.03f, transform.position.y, transform.position.z);
 
