@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallControl_1.cs" />
     <Compile Include="Assets\Scripts\BallControl_2.cs" />
+    <Compile Include="Assets\Scripts\Boundary.cs" />
+    <Compile Include="Assets\Scripts\Bubble.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/luyunfei/Desktop/code/git/Opposites/Opposite/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

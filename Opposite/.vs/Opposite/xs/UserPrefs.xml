@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{A5C2897E-57D2-77A0-5842-9CDD1EFBF0B7}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallControl_1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bubble.cs">
     <Files>
       <File FileName="Assets/Scripts/BallControl_2.cs" Line="8" Column="37" />
-      <File FileName="Assets/Scripts/BallControl_1.cs" Line="5" Column="27" />
+      <File FileName="Assets/Scripts/BallControl_1.cs" Line="18" Column="117" />
+      <File FileName="Assets/Scripts/Boundary.cs" Line="35" Column="20" />
+      <File FileName="Assets/Scripts/Bubble.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

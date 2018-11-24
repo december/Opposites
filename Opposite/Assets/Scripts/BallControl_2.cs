@@ -33,4 +33,19 @@ public class BallControl_2 : MonoBehaviour {
 
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.GetComponent<Rigidbody2D>() != null)
+        {
+            //bubbles[other.GetInstanceID()] = 1;
+            //other.transform.SetParent(transform, false);
+            transform.localScale = new Vector3(transform.localScale.x * 1.1f, transform.localScale.y * 1.1f, transform.localScale.z);
+            unit *= 0.8f;
+            Destroy(other.gameObject);
+            Debug.Log("!");
+        }
+
+    }
+
 }
